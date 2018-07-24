@@ -7,7 +7,7 @@ const Footer = () => (
   <Wrapper>
     <div className="seven columns alpha ">
       <span className="rights_st">
-        {'All rights reserved Copyright @ 2014 HaiVX by'}
+        {'All rights reserved Copyright @ 2018 HaiVX by '}
         <span className="pixfort_st">PixFort</span>
       </span>
     </div>

@@ -23,12 +23,12 @@ import Features from './components/Features';
 import Services from './components/Services';
 import Clients from './components/Clients';
 import Testimonials from './components/Testimonials';
-import RegisterForm from './components/RegisterForm';
+import SimpleForm from './components/SimpleForm';
 import Footer from './components/Footer';
 /* eslint-disable react/prefer-stateless-function */
 export class HomePage extends React.PureComponent {
-  onSubmitForm = () => {
-    console.log('submit form');
+  handleSubmit = values => {
+    console.log('submit form', values);
   };
   render() {
     return (
@@ -39,7 +39,7 @@ export class HomePage extends React.PureComponent {
         <Services />
         <Clients />
         <Testimonials />
-        <RegisterForm />
+        <SimpleForm onSubmit={this.handleSubmit} />
         <Footer />
       </Fragment>
     );

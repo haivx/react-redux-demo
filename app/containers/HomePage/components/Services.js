@@ -34,7 +34,7 @@ const Services = () => (
           <div className="img_homes_st">
             <img src={serviceImg2} className="" alt="" />
           </div>
-          <div classNameName="text_homes_style">
+          <div className="text_homes_style">
             <p className="calc_homes_st">Welcome to Hotel</p>
             <p className="calc_homes_text">
               {'Lorem ipsum dolor sit amet consectetur adipiscing elite.'}
@@ -48,7 +48,7 @@ const Services = () => (
           <div className="img_homes_st">
             <img src={serviceImg3} className="" alt="" />
           </div>
-          <div classNameName="text_homes_style">
+          <div className="text_homes_style">
             <p className="calc_homes_st">Welcome to Hotel</p>
             <p className="calc_homes_text">
               {'Lorem ipsum dolor sit amet consectetur adipiscing elite.'}
@@ -62,7 +62,7 @@ const Services = () => (
           <div className="img_homes_st">
             <img src={serviceImg4} className="" alt="" />
           </div>
-          <div classNameName="text_homes_style">
+          <div className="text_homes_style">
             <p className="calc_homes_st">Welcome to Hotel</p>
             <p className="calc_homes_text">
               {'Lorem ipsum dolor sit amet consectetur adipiscing elite.'}

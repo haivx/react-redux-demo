@@ -5,6 +5,7 @@
 - Using NodeJS & PosgresQL in Backend 
 
 ## How to use:
-- `run command **npm i**`
-- `run command **npm start**`
+- `run command npm i`
+- `run command npm start`
 - Another command: see in React boilerplate project on github
+- Using documentation in docs folder.

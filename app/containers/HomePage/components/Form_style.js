@@ -13,7 +13,6 @@ const Wrapper = styled.div`
     width: 70%;
     margin: auto;
     background-color: whitesmoke;
-    list-style-type: none;
     padding: 0;
     border-radius: 3px;
   } 
@@ -34,18 +33,18 @@ const Wrapper = styled.div`
   .form-row > button {
     padding: .5em;
   }
-  .form-row > button {
+  button {
    background: #cc333f;
    border: 0,
    justify-content: center;
    cursor: pointer;
   }
-  .form-row > button span {
+  button span {
     color: white;
     font-size: 14px;
     padding: 5px;
   }
-  .form-row > button:hover {
+  button:hover {
     background: #c22731;
   }
   .form-row :last-child {
